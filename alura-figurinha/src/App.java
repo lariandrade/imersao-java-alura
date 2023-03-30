@@ -9,7 +9,9 @@ public class App {
         //String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularMovies.json";
         //ExtratorConteudo extrator = new ExtratorConteudoIMDB();
         
-        String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/NASA-APOD.json";
+        //String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/NASA-APOD.json";
+        
+        String url = "http://localhost:9090/linguagens";
         ExtratorConteudo extrator = new ExtratorConteudoNasa();
 
         var http = new ClienteHttp();
